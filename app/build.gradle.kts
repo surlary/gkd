@@ -78,7 +78,7 @@ android {
         }
         ndk {
             // noinspection ChromeOsAbiSupport
-            abiFilters += listOf("arm64-v8a", "x86_64")
+            abiFilters += listOf("arm64-v8a", "x86_64", "armeabi-v7a")
         }
 
         GitInfo::class.declaredMemberProperties.onEach {
